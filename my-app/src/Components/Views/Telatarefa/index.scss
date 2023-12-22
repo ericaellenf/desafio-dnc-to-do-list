@@ -1,0 +1,166 @@
+@use "../../sass/variables.scss" as *;
+
+
+
+
+
+.topo{
+    background-color: $azul-color;
+    height: 74px;
+    display: flex;
+    font-family: Poppins;
+
+    h2{
+        color: $branco-color;
+        margin-top: 29px;
+        margin-left: 61px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+}
+
+
+.topo label{
+    margin-left: 165px;
+    margin-top: 20px;
+    background-color: $branco-color;
+    width: 174px;
+    height: 54px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+
+    h3{
+        color: $azul-color;
+        margin-top: 9px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+
+}
+
+
+
+.sprincipal{
+    background-color: $cinza-color;
+
+    h2{
+        color:  $branco-color;
+        font-size: 40px;
+        font-weight: 600;
+        font-family: Poppins;
+        padding-top: 45px;
+        padding-left: 140px;
+        padding-bottom: 40px;
+    }
+
+    hr{
+        width: 685px;
+        margin-left: 391px;
+        color: #D9D9D9;
+        height: 6px;
+        background-color: #D9D9D9;
+        margin-top: 60px;
+    }
+}
+
+.sprincipal section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    width: 700px;
+    justify-content: space-around;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: raleway;
+    color:  $branco-color;
+    margin-left: 391px;
+}
+
+
+
+.usuario{
+    display: flex;
+    flex-direction: row;
+    color: $branco-color;
+    margin-top: 12px;
+    margin-left: 391px;
+    font-size: 25px;
+    font-family: Raleway;
+    font-weight: 400;
+
+.usuario {
+    
+    color: $branco-color;
+    font-weight:50;
+    font-family: Relaway;
+    width: 50%;
+      
+}
+#labelinput{
+    display: flex;
+}
+}
+
+.edicao{
+    color: $branco-color;
+    font-weight: bold;
+}
+
+.box{
+
+    margin-bottom: 0px;
+    margin-left: 130px;
+    width: 25px;
+    height: 25px;
+
+    
+}
+
+.icons{
+    margin-left: 132px;
+    
+   
+    
+
+
+
+}
+
+button{
+    background-color: $azul-color;
+    border: none;
+    margin-top: 12px;
+    margin-left: 25px;
+}
+
+.uni{
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+
+.newt{
+    font-size: 25px;
+    margin-left: 391px;
+    border: none;
+    width: 565px;
+    background-color: $cinza-color;
+    font-weight: 400;
+    font-family: Raleway;
+    font-style: italic;
+    color: $branco-color;
+    margin-bottom:  202px;
+    
+}
+
+#btadd{
+    color: $branco-color;
+    font-size: 20px;
+}
+

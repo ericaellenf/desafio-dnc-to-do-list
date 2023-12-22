@@ -1,0 +1,23 @@
+@use "../../sass/variables.scss" as *;
+
+
+body{
+ background-color: $cinza-color;
+ color: $branco-color;
+ 
+.tudo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+
+a{
+    text-decoration: none;
+    color: $branco-color;
+    font-weight: bolder;
+}
+
+}

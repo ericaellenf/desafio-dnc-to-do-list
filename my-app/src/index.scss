@@ -1,0 +1,14 @@
+@use "../src/Components/sass/variables.scss" as *;
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+button{
+  background-color: $azul-color;
+  background-color: $azul-color;
+  width: 70px;
+  height: 35px;
+  border-radius: 10px;
+}
